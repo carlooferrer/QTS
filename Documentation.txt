@@ -1,0 +1,24 @@
+Documentation:
+
+Install QTS Application:
+1. Extract zip file.
+2. Copy the QTS folder to your Documents folder
+
+Install Python:
+1. Download the latest version of Python
+
+Set-up QTS:
+1. Download your csv file from Yahoo Finance. We recommend a stock symbol with at least 10,000 rows
+2. Copy your csv file to the root of the QTS folder
+3. Open your csv file and add a column 'Day'. Starting from 1, iterate number of days up until the last row.
+- Ex. 1,2,3,..,10,000
+4. Open Main.py using Notepad or any text editor
+5. Change "_.csv" to the filename of the stock you want to simulate. NOTE: DO NOT REMOVE QUOTATION MARKS!
+- Ex. "IBM.csv". 
+6. Save the file.
+
+Run the app:
+1. Type cmd in your start menu. Right click and choose "Run as administrator"
+2. Go to the root of the QTS folder
+3. Once you are in the root of your QTS folder, type "py main.py"
+4. QTS Application must run.
